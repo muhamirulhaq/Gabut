@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    background-color: #f6f0f3;
+}
+
+header h1 {
+    background-color: rgb(29, 29, 29);
+    margin: 0px;
+    padding: 50px 50px 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header p {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 40px 40px;
+}
+
+.navTop {
+    background-color: rgb(29, 29, 29);
+    margin: 0px;
+    position: relative;
+    text-align: center;
+}
+
+.menu {
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu:active {
+    background-color: #cecece;
+}
+
+header > a {
+    color: black;
+    text-decoration: none;
+}
+
+.navTop a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.home {
+    padding: 15px 15px 10px;
+}
+
+.about {
+    padding: 10px 15px 15px;
+}
+
+.navTop a:hover {
+    background-color: #cecece;
+    color: black;
+}
+
+aside {
+    background-color: white;
+    width: 25%;
+    float: left;
+    padding: 1.5%;
+    box-shadow: 0px 0px 0.7px black;
+    border-radius: 5px;
+}
+
+footer {
+    clear: left;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    text-align: left;
+}
+
+table {
+    margin: 8px 0px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.pp {
+    padding: 5% 15% 5%;
+    border-radius: 200px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(29, 29, 29);
+    margin: 0px;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article {
+    text-align: center;
+    background-color: white;
+    width: 51.5%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    float: right;
+    padding: 3% 10%;
+    box-shadow: 0px 0px 0.7px black;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .content, aside {
+        width: 100%;
+        padding: 0;
+        float: none;
+    }
+ }
